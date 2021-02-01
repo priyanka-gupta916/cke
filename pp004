@@ -1,0 +1,14 @@
+struct number{
+      unsigned n:1;
+};
+main(){
+      int num;
+      struct number x;
+      printf("Enter a no.");
+      scanf("%d",&num);
+      x.n=num;
+      if(x,n)
+          printf("%d is odd", num);
+      else
+          printf("%d is even",num);
+}
